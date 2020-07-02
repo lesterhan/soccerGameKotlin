@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SoccerGameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-07-01T20:46:20" hostname="lhan-CZJGH5" time="0.79">
+<testsuite name="SoccerGameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-07-02T17:32:44" hostname="groman-ZAMD6M" time="0.96">
   <properties/>
-  <testcase name="a new soccer game has no fans" classname="SoccerGameTest" time="0.002"/>
+  <testcase name="a new soccer game has no fans" classname="SoccerGameTest" time="0.003"/>
   <testcase name="soccer game can add fans" classname="SoccerGameTest" time="0.003"/>
-  <testcase name="scoring will make all fans react" classname="SoccerGameTest" time="0.779"/>
+  <testcase name="scoring will make all fans react" classname="SoccerGameTest" time="0.945"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
