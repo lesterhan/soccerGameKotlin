@@ -17,6 +17,18 @@ class SoccerGameTest : StringSpec({
         soccerGame.fans shouldContain fan
     }
 
+    "a new soccer game has no teams" {
+        val soccerGame = SoccerGame()
+        soccerGame.teamsMap.size shouldBe 0
+    }
+
+    "soccer game can add team" {
+        val soccerGame = SoccerGame()
+        val team = Team.NYRedBulls
+        soccerGame.addTeam(team)
+        soccerGame.teamsMap.keys shouldContain team
+    }
+
     "scoring will make all fans react" {
         val soccerGame = SoccerGame()
         val fan1 = mockk<Fan>(relaxed = true)
